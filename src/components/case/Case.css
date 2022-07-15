@@ -143,6 +143,11 @@
 .link {
   text-align: center;
 }
+@media only screen and (min-width: 2000px) {
+  .styleImg7 {
+display: none;
+  }
+}
 @media only screen and (max-width: 1720px) {
   .styleImg7 {
     display: none;

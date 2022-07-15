@@ -1,8 +1,4 @@
 .mainBlog {
-
-  /* width: 2000px; */
-  /* background-size: 100% 100%; */
-  /* background-repeat: no-repeat; */
   height: 824px;
 }
 
@@ -40,7 +36,7 @@
 .fotoBlog {
   display: flex;
   text-align: center;
-  max-width: 1697px;
+  /* max-width: 1697px; */
   justify-content: space-between;
 }
 
@@ -144,6 +140,15 @@
 .vector {
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (min-width: 2000px){
+  .styleListImg2 {
+top: 130%;
+  }
+  .mainImg {
+    left: 20%;
+
+  }
 }
 @media only screen and (max-width: 1720px){
   .styleListImg{

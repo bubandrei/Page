@@ -104,6 +104,11 @@ textarea {
   top: -160px;
   background-repeat: no-repeat;
 }
+@media only screen and (min-width: 2000px){
+  .wrapFootForm {
+    justify-content: space-around;
+  }
+}
 @media only screen and (max-width: 1720px){
 .img11{
   display: none;

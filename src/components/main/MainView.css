@@ -4,6 +4,14 @@ body {
   background-repeat: no-repeat;
   background-position: 100% -2%;
 }
+@media only screen and (min-width: 2000px) {
+  body {
+    background-size: 60%;
+  }
+  .wrapMain {
+   margin-bottom: 10%;
+  }
+}
 
 .wrapMain {
   width: 55%;
@@ -124,7 +132,7 @@ body {
 .iconR {
   width: 87px;
   height: 64px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 8px rgb(0 0 0 / 10%);
   border-radius: 3px 0px 0px 3px;
   text-align: center;
