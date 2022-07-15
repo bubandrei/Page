@@ -213,3 +213,8 @@ body {
     background-position: 0 0;
   }
 }
+@media only screen and (max-width: 375px) {
+  body {
+    background-position: 0 0;
+  }
+}
