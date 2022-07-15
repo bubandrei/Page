@@ -1,0 +1,115 @@
+  .titleBlog2 {
+    padding-top: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 52px;
+    vertical-align: Top;
+    font-weight: 900;
+  }
+  .textBlog2 {
+    padding-top: 1%;
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 2%;
+    height: 24px;
+    font-weight: 400;
+  }
+  .fotoBlog2 {
+    display: flex;
+  text-align: center;
+  justify-content: space-between;
+  }
+  .styleFoto2 {
+    width: 510px;
+    height: 330px;
+  }
+  .blackFoto2:after {
+    /* content: "";
+    width: 90%;
+    height: 98%;
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    background-color: rgba(0, 0, 0, 0.5); */
+  }
+  .btnArt {
+    background-color: #319f1c;
+    color: white;
+    border: none;
+    box-shadow: 0 2px 10px #319f1c;
+    height: 22px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 238px;
+    height: 43px;
+    margin-top: 2%;
+    font-weight: 600;
+  }
+  .blockforbtn2 {
+    text-align: center;
+  }
+  .generalForText2 {
+    position: relative;
+  }
+  .titleArt {
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  /* .imgSize2 {
+    width: 70%;
+  } */
+  .topText2 {
+    text-align: left;
+    padding-left: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .footText2 {
+    text-align: left;
+    padding-left: 60px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  @media only screen and (max-width: 1240px) {
+    .mainArticle{
+      height: 1250px;
+    }
+  .titleBlog2{
+    text-align: center;
+  }
+  .textBlog2{
+    text-align: center;
+  }
+  .fotoBlog2{
+    flex-direction: column;
+  }
+  .titleArt {
+    position: absolute;
+    top: 0px;
+    left: 2%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+  }

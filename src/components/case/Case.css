@@ -1,0 +1,169 @@
+.titleCase {
+  margin-top: 6%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 52px;
+  vertical-align: Top;
+  font-weight: 900;
+}
+
+.textCase {
+  padding-top: 1%;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 4%;
+  width: 794px;
+  height: 24px;
+  font-weight: 400;
+}
+
+.wrapFoto {
+  text-align: center;
+}
+
+.wrapInCase {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.styleImg7 {
+  position: absolute;
+  width: 182px;
+  height: 140px;
+  left: 900px;
+  top: 821px;
+  transform: rotate(15deg);
+}
+
+.styleImgTree1 {
+  position: absolute;
+  width: 643px;
+  height: 844px;
+  left: -467px;
+  top: 1049px;
+}
+
+.caseOption {
+}
+
+.caseFoto {
+  width: 776px;
+  height: 435px;
+}
+
+.caseText {
+  width: 372px;
+  height: 435px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 5px lightgray;
+  border-radius: 2px;
+}
+
+.borderInput {
+  border: 1px solid #319f1c;
+  margin-bottom: 4%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  width: 370px;
+  height: 60px;
+  border-radius: 3px;
+}
+
+.textStyle {
+  padding-left: 6%;
+}
+
+.toggleStyle {
+  position: absolute;
+  bottom: -8px;
+  left: -6px;
+}
+.leftright {
+  position: absolute;
+  bottom: 33px;
+  display: flex;
+  width: 220px;
+  justify-content: space-evenly;
+}
+
+.backGreen {
+  color: white;
+  background-color: #319f1c;
+}
+.imgLR {
+  display: block;
+}
+
+.titleBlock {
+  font-weight: 900;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.textArea {
+}
+
+.bold {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 24px;
+}
+
+.rub {
+  display: inline-block;
+  font-size: 34px;
+  line-height: 7px;
+  border-bottom: 1px solid #319f1c;
+  width: 0.4em;
+}
+
+.square {
+  color: #319f1c;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.simpleText {
+  font-size: 10px;
+}
+
+.link {
+  text-align: center;
+}
+@media only screen and (max-width: 1720px) {
+  .styleImg7 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .wrapInCase {
+    flex-direction: column;
+    align-items: center;
+  }
+  .borderInput {
+    width: 775px;
+  }
+  .caseText {
+    width: 775px;
+    height: 435px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 5px lightgrey;
+    border-radius: 2px;
+  }
+}
