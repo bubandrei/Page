@@ -9,13 +9,12 @@ body {
     background-size: 60%;
   }
   .wrapMain {
-   margin-bottom: 10%;
+    margin-bottom: 10%;
   }
 }
 @media only screen and (min-width: 2400px) {
-
   .wrapMain {
-   margin-bottom: 20%;
+    margin-bottom: 20%;
   }
 }
 .wrapMain {
@@ -214,24 +213,30 @@ body {
     background-size: 390px;
   }
   .flexIcons {
-
-    width: 390px;
+    width: 330px;
   }
   .wrapMain {
     width: 100%;
-    margin-top: 10%;
+    margin: 10% 0%;
   }
   .title {
     font-size: 20px;
     color: black;
     line-height: 28px;
     display: inline;
-
-}
+  }
+  .mainCover {
+    color: black;
+  }
+  .styleText {
+   color: black;
+  }
+  .styleInput {
+align-items: center;
+  }
 }
 @media only screen and (max-width: 375px) {
   body {
     background-position: 0 0;
-    
   }
 }
