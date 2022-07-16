@@ -211,10 +211,27 @@ body {
 @media only screen and (max-width: 390px) {
   body {
     background-position: 0 0;
+    background-size: 390px;
   }
+  .flexIcons {
+
+    width: 390px;
+  }
+  .wrapMain {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .title {
+    font-size: 20px;
+    color: black;
+    line-height: 28px;
+    display: inline;
+
+}
 }
 @media only screen and (max-width: 375px) {
   body {
     background-position: 0 0;
+    
   }
 }
