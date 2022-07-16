@@ -7,7 +7,7 @@ import img6 from "../../assets/images/6.png";
 const Article = () => {
   return (
     <div className="mainArticle">
-      <div className="titleBlog2">Статьи</div>
+      {/* <div className="titleBlog2">Статьи</div> */}
       <div className="textBlog2">
         Пишем для вас полезные статьи, основанные на реальном опыте и
         многолетней практике
