@@ -45,7 +45,6 @@
   height: 330px;
 }
 
-
 .btnVideo {
   background-color: #319f1c;
   color: white;
@@ -64,7 +63,7 @@
   position: relative;
   text-align: center;
 }
-.mainFotoCase{
+.mainFotoCase {
   position: relative;
 }
 
@@ -120,7 +119,7 @@
 .topText {
   text-align: left;
   padding-left: 60px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -130,7 +129,7 @@
 .footText {
   text-align: left;
   padding-left: 60px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -141,45 +140,44 @@
   margin-left: auto;
   margin-right: auto;
 }
-@media only screen and (min-width: 2000px){
+@media only screen and (min-width: 2000px) {
   .styleListImg2 {
-top: 130%;
+    top: 130%;
   }
   .mainImg {
     left: 20%;
-
   }
 }
-@media only screen and (max-width: 1720px){
-  .styleListImg{
+@media only screen and (max-width: 1720px) {
+  .styleListImg {
     top: 70%;
   }
-  .styleCloudImg{
+  .styleCloudImg {
     display: none;
   }
-  .styleListImg2{
+  .styleListImg2 {
     top: 106%;
   }
 }
 @media only screen and (max-width: 1240px) {
-  .mainBlog{
+  .mainBlog {
     height: 1350px;
   }
-.titleBlog{
-  text-align: center;
-}
-.textBlog{
-  text-align: center;
-}
-.styleListImg{
-  display: none;
-}
-.styleListImg2{
-  display: none;
-}
-.fotoBlog{
-  flex-direction: column;
-}
+  .titleBlog {
+    text-align: center;
+  }
+  .textBlog {
+    text-align: center;
+  }
+  .styleListImg {
+    display: none;
+  }
+  .styleListImg2 {
+    display: none;
+  }
+  .fotoBlog {
+    flex-direction: column;
+  }
   .titleVideo {
     position: absolute;
     top: 0px;
@@ -191,5 +189,23 @@ top: 130%;
     align-items: center;
     height: 100%;
     justify-content: space-evenly;
+  }
 }
+@media only screen and (max-width: 390px) {
+  .titleBlog {
+
+    padding-top: 2%;
+
+  }
+  .textBlog {
+width: 100%;
+height: 50px;
+  }
+  .styleFoto{
+    width: 100%;
+    height: 100%;
+  }
+  .mainBlog{
+    height: 100%;
+  }
 }
