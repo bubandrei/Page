@@ -125,3 +125,12 @@ textarea {
    
   }
 }
+@media only screen and (max-width: 390px) {
+  .homeImg {
+    width: 100%;
+    height: 100%;
+  }
+  .img10{
+    display: none;
+  }
+}

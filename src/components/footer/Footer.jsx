@@ -11,20 +11,20 @@ const Footer = () =>
 {
     return (
         <div className="wrapFooter">
-            <div className="commonStyle">
+            <div className="commonStyle columnNone">
                 <div><img src={logoBlack} alt="" /></div>
                 <div>
                     <button className="btnCall">Заказать звонок</button>
                 </div>
             </div>
-            <div className="commonStyle">
+            <div className="commonStyle columnNone">
                 <div>Главная</div>
                 <div>Каталог</div>
                 <div>Услуги</div>
                 <div>Расчет стоимости</div>
                 <div>Консультация архитектора</div>
             </div>
-            <div className="commonStyle">
+            <div className="commonStyle columnNone">
                 <div>Экскурсия на объект</div>
                 <div>3D-макет дома</div>
                 <div>О нас</div>
